@@ -1,0 +1,9 @@
+﻿version: '3.8'
+services:
+  frontend:
+    build: ./
+    container_name: frontend
+    environment:
+      - PORT=8309
+    ports:
+      - '8309:8309'
